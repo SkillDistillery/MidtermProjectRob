@@ -1,5 +1,7 @@
 package com.skilldistillery.petfinder.data;
 
-public interface UserDAO {
+import com.skilldistillery.petfinder.entities.User;
 
+public interface UserDAO {
+	User findById(int userId);
 }

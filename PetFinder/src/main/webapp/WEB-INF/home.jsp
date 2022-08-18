@@ -9,5 +9,6 @@
 <body>
 
 	<h1>Welcome to Pet Finder</h1>
+	${SMOKETEST} <!-- DEBUG, DELETE LATER -->
 </body>
 </html>
